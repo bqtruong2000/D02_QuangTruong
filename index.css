@@ -1,84 +1,66 @@
-.div1{
-    display: flex;
-    flex-direction: row;
+body{
+    max-height: 100%;
+    width:10vh;
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(120deg, #59c2ff, #1270e3);
 }
 
-.div2{
-    height: 800px;
-    width: 30%;
-    background-color:royalblue;
-}
-
-.p1{
-    font-size: 90px;
-    color: azure;
-    font-family: Arial;
-    font-weight: bold;
-    text-align-last: center;
-}
-.p2{
-    font-size: 50px;
-    color: azure;
-    font-family: 'Times New Roman';
-    text-align-last: center;
-}
-
-.div3{
-    height: 800px;
-    width: 70%;
-    background-color:cornflowerblue;
-}
-
-.div4{
+.login_form{
     height: 400px;
     width: 500px;
     background-color:white;
-    margin: 200px 50px 100px 250px;
-    border-radius: 1%;
+    margin: 200px 0px 100px 600px;
+    padding: 3rem 3rem 3rem 3rem;
 }
 
-.hd1{
+h1{
     color:dimgrey;
-    font-family: 'Times New Roman', Times, serif;
     text-align-last: center;
-    font-weight: bold;
-    padding-top: 40px;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-top: 0;
+    display: block;
 }
 
-.bottom1{
+.input_submit{
     background-color:dodgerblue;
-    border-radius: 3%;
+    border-radius: 3px;
     width: 23rem;
     height: 3rem;
     margin-left: 70px;
     border-width: 0;
     color: azure;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
     text-align-last: center;
     font-size: large;
 }
 
-.bd1, .bd2{
+.login_input{
     width: 23rem;
     height: 3rem;
     margin-left: 70px;
     color: darkgray;
     text-align-last: left;
     font-size: medium;
+    margin-top: 7px;
+    border-radius: 3px;
+    border-width: 1;
+    border-style:double;
 }
 
-.div5{
-    display: flex;
-    flex-direction: row;
+.login_links{
+    display:flex;
+    flex-direction:row;
+    margin-top: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1rem;
 }
-
-.div6{
-    margin-left: 120px;
-    margin-right: 70px;
-    color: dodgerblue;
-}
-.div7{
-    margin-left: 25px;
-    color: dodgerblue;
+.login_links a{
+    font-size: 14px;
+    color: #1270e3;
+    font-size: 1rem;
 }
